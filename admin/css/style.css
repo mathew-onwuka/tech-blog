@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+}
+
+#header{
+	width: 100%;
+	background-color:#CCCCCC;
+	height: 100px;
+	display: inline-block;
+}
+
+#header img{
+	margin-left: 7%;	
+	float: left;
+	border-radius: 200px
+}
+
+#header h1{
+	margin: 0;
+	padding: 0;
+	font-size: 45px;
+	/*width: 40%;*/
+	text-align: left;
+	margin-left: 38%;
+	padding-top: 20px;
+}
+
+#header div {
+	background-color: #26314D;
+	float: right;
+	margin-right: 90px;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	margin-top: -45px;
+	cursor: pointer;
+	border: 2px solid #fff;
+	padding-top: 5px;
+
+}
+
+#header div a{
+	color: #fff;
+	width: 100%;
+	list-style-type: none;
+	text-decoration:none; 
+}
+
+#header div:hover{
+	background-color: brown;
+}
+
+#first-sec{
+	width: 30%;
+	height: 520px;
+	background-color: #282E33;
+	float: left;
+}
+
+#first-sec h1{
+	color: #fff;
+	font-size: 32px;
+	font-style: italic;
+	font-family: Monotype Corsiva;
+	padding-top: 20px;
+}
+
+#first-sec h3{
+	color: #fff;
+	font-size: 28px;
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+#first-sec ul li{
+	font-size: 25px;
+	color: #fff;
+	padding-bottom: 20px
+}
+
+
+#second-sec{
+	background-image: url(../images/11.jpg);
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 521px;
+	background-color: #fff;
+	border:2px solid #000;
+	float: right;
+}
+
+#second-sec h1{
+	color: #144264;
+	font-size: 45px;
+	padding-top: 50px;
+	padding-left:80px 
+}
+
+#second-sec form table tr{
+	clear: both;
+	width: 100%;
+}
+
+#second-sec form table tr td{
+	padding-bottom: 25px;
+	/*width: 20%;*/
+}
+
+#second-sec form table tr td label{
+	font-size: 35px;
+	padding-top: 10px;
+	padding-left: 150px;
+} 
+
+#second-sec form table tr td input{
+	width: 350px;
+	height: 50px;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-left: -390px
+}
+
+#second-sec form table tr td button{
+	width: 70px;
+	height: 50px;
+	border-radius: 10px;
+	margin-left: -110px;
+	cursor: pointer;
+}
+
+#second-sec form table tr td #login{
+	margin-left: 250px;
+	width: 500px;
+}
+
